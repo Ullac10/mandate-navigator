@@ -5,7 +5,6 @@ import { Check, MessageCircle } from "lucide-react";
 const plans = [
   {
     name: "Vereadores",
-    setup: "R$ 3.000",
     monthly: "R$ 199",
     description: "Ideal para gestão municipal focada",
     features: [
@@ -19,7 +18,6 @@ const plans = [
   },
   {
     name: "Prefeitos e Vice",
-    setup: "R$ 3.800",
     monthly: "R$ 399",
     description: "Gestão executiva completa do município",
     features: [
@@ -33,7 +31,6 @@ const plans = [
   },
   {
     name: "Deputado Estadual",
-    setup: "R$ 5.000",
     monthly: "R$ 599",
     description: "Visão regional com múltiplos municípios",
     features: [
@@ -47,7 +44,6 @@ const plans = [
   },
   {
     name: "Deputado Federal",
-    setup: "R$ 5.000",
     monthly: "R$ 799",
     description: "Gestão nacional e articulação completa",
     features: [
@@ -95,14 +91,11 @@ export function PricingSection() {
                 <CardDescription className="text-sm">{plan.description}</CardDescription>
               </CardHeader>
               <CardContent className="text-center space-y-4">
-                <div>
-                  <div className="text-sm text-muted-foreground mb-1">Setup único</div>
-                  <div className="text-xl font-bold text-foreground font-display">{plan.setup}</div>
-                </div>
                 <div className="pb-4 border-b border-border">
                   <div className="text-sm text-muted-foreground mb-1">Mensal</div>
                   <div className="text-3xl font-bold text-foreground font-display">{plan.monthly}</div>
                   <div className="text-xs text-muted-foreground">/mês</div>
+                  <div className="text-xs text-muted-foreground mt-2">+ setup*</div>
                 </div>
                 <ul className="space-y-3 text-left">
                   {plan.features.map((feature, fIndex) => (
@@ -124,6 +117,11 @@ export function PricingSection() {
             </Card>
           ))}
         </div>
+
+        {/* Footnote */}
+        <p className="text-center text-sm text-muted-foreground mb-12">
+          *Consultar valor de setup de acordo com o plano escolhido
+        </p>
 
         {/* Enterprise tier */}
         <Card variant="elevated" className="max-w-2xl mx-auto border-2 border-primary/20">
