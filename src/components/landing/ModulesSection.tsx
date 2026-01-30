@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { LayoutDashboard, MapPin, FolderKanban, Users, Target, ChevronRight } from "lucide-react";
+import dashboardPreview from "@/assets/dashboard-preview.jpg";
 
 const modules = [
   {
@@ -114,11 +115,19 @@ export function ModulesSection() {
                 ))}
               </ul>
             </CardHeader>
-            <CardContent className="p-0 bg-muted/30 flex items-center justify-center min-h-[300px]">
-              <div className="text-center p-8">
-                <activeModule.icon className="w-20 h-20 text-accent/20 mx-auto mb-4" />
-                <p className="text-sm text-muted-foreground">Visualização do módulo</p>
-              </div>
+            <CardContent className="p-0 bg-muted/30 flex items-center justify-center min-h-[300px] relative overflow-hidden">
+              {activeModule.id === "dashboard" ? (
+                <img 
+                  src={dashboardPreview} 
+                  alt="Painel Estratégico com gráficos e indicadores" 
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <div className="text-center p-8">
+                  <activeModule.icon className="w-20 h-20 text-accent/20 mx-auto mb-4" />
+                  <p className="text-sm text-muted-foreground">Visualização do módulo</p>
+                </div>
+              )}
             </CardContent>
           </div>
         </Card>
