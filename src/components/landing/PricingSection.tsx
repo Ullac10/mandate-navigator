@@ -40,7 +40,7 @@ const plans = [
       "Análise regional",
       "Onboarding dedicado"
     ],
-    highlighted: true
+    highlighted: false
   },
   {
     name: "Deputado Federal",
