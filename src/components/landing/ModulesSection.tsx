@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { LayoutDashboard, MapPin, FolderKanban, Users, Target, ChevronRight } from "lucide-react";
 import dashboardPreview from "@/assets/dashboard-preview.jpg";
+import { BrazilMap } from "./BrazilMap";
 
 const modules = [
   {
@@ -122,6 +123,8 @@ export function ModulesSection() {
                   alt="Painel Estratégico com gráficos e indicadores" 
                   className="w-full h-full object-cover"
                 />
+              ) : activeModule.id === "map" ? (
+                <BrazilMap />
               ) : (
                 <div className="text-center p-8">
                   <activeModule.icon className="w-20 h-20 text-accent/20 mx-auto mb-4" />
