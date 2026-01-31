@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/com
 import { LayoutDashboard, MapPin, FolderKanban, Users, Target, ChevronRight } from "lucide-react";
 import dashboardPreview from "@/assets/dashboard-preview.jpg";
 import projectsPreview from "@/assets/projects-preview.jpg";
+import basePreview from "@/assets/base-preview.jpg";
 import { BrazilMap } from "./BrazilMap";
 
 const modules = [
@@ -130,6 +131,12 @@ export function ModulesSection() {
                 <img 
                   src={projectsPreview} 
                   alt="Gestão de Projetos e Compromissos" 
+                  className="w-full h-full object-cover"
+                />
+              ) : activeModule.id === "base" ? (
+                <img 
+                  src={basePreview} 
+                  alt="Gestão da Base Política com rede de contatos" 
                   className="w-full h-full object-cover"
                 />
               ) : (
