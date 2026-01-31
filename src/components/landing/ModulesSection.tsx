@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { LayoutDashboard, MapPin, FolderKanban, Users, Target, ChevronRight } from "lucide-react";
 import dashboardPreview from "@/assets/dashboard-preview.jpg";
+import projectsPreview from "@/assets/projects-preview.jpg";
 import { BrazilMap } from "./BrazilMap";
 
 const modules = [
@@ -125,6 +126,12 @@ export function ModulesSection() {
                 />
               ) : activeModule.id === "map" ? (
                 <BrazilMap />
+              ) : activeModule.id === "projects" ? (
+                <img 
+                  src={projectsPreview} 
+                  alt="Gestão de Projetos e Compromissos" 
+                  className="w-full h-full object-cover"
+                />
               ) : (
                 <div className="text-center p-8">
                   <activeModule.icon className="w-20 h-20 text-accent/20 mx-auto mb-4" />
