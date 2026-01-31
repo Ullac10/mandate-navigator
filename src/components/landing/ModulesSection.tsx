@@ -4,6 +4,7 @@ import { LayoutDashboard, MapPin, FolderKanban, Users, Target, ChevronRight } fr
 import dashboardPreview from "@/assets/dashboard-preview.jpg";
 import projectsPreview from "@/assets/projects-preview.jpg";
 import basePreview from "@/assets/base-preview.jpg";
+import precampaignPreview from "@/assets/precampaign-preview.jpg";
 import { BrazilMap } from "./BrazilMap";
 
 const modules = [
@@ -137,6 +138,12 @@ export function ModulesSection() {
                 <img 
                   src={basePreview} 
                   alt="Gestão da Base Política com rede de contatos" 
+                  className="w-full h-full object-cover"
+                />
+              ) : activeModule.id === "precampaign" ? (
+                <img 
+                  src={precampaignPreview} 
+                  alt="Organização Pré-Campanha com planejamento estratégico" 
                   className="w-full h-full object-cover"
                 />
               ) : (
