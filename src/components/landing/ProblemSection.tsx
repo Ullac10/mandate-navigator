@@ -33,8 +33,8 @@ export function ProblemSection() {
     <section className="py-20 md:py-28 bg-background">
       <div className="container">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="inline-block text-accent font-semibold text-sm uppercase tracking-wider mb-4">
-            O Problema
+          <span className="inline-block text-destructive font-bold text-sm uppercase tracking-wider mb-4 animate-pulse">
+            ⚠ O Problema
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-display">
             Mandatos desorganizados geram decisões ruins
