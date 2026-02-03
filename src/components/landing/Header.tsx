@@ -41,9 +41,11 @@ export function Header() {
 
           {/* CTA */}
           <div className="flex items-center gap-4">
-            <Button variant="hero" size="sm" className="hidden sm:flex">
-              Começar
-              <ChevronRight className="w-4 h-4" />
+            <Button variant="hero" size="sm" className="hidden sm:flex" asChild>
+              <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
+                Começar
+                <ChevronRight className="w-4 h-4" />
+              </a>
             </Button>
             
             {/* Mobile menu toggle */}
@@ -70,9 +72,11 @@ export function Header() {
                   {link.label}
                 </a>
               ))}
-              <Button variant="hero" size="sm" className="mt-2">
-                Começar
-                <ChevronRight className="w-4 h-4" />
+              <Button variant="hero" size="sm" className="mt-2" asChild>
+                <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
+                  Começar
+                  <ChevronRight className="w-4 h-4" />
+                </a>
               </Button>
             </nav>
           </div>

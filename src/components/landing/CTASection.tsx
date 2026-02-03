@@ -31,9 +31,11 @@ export function CTASection() {
 
           {/* CTA */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="hero" size="xl">
-              Agendar demonstração
-              <ArrowRight className="w-5 h-5" />
+            <Button variant="hero" size="xl" asChild>
+              <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
+                Agendar demonstração
+                <ArrowRight className="w-5 h-5" />
+              </a>
             </Button>
           </div>
 

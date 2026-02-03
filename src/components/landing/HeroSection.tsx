@@ -42,12 +42,16 @@ export function HeroSection() {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-300">
-            <Button variant="hero" size="xl">
-              Quero organizar meu mandato
-              <ChevronRight className="w-5 h-5" />
+            <Button variant="hero" size="xl" asChild>
+              <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
+                Quero organizar meu mandato
+                <ChevronRight className="w-5 h-5" />
+              </a>
             </Button>
-            <Button variant="heroOutline" size="xl">
-              Ver como funciona
+            <Button variant="heroOutline" size="xl" asChild>
+              <a href="#modulos">
+                Ver como funciona
+              </a>
             </Button>
           </div>
 
