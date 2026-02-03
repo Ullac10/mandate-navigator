@@ -110,8 +110,11 @@ export function PricingSection() {
                 <Button 
                   variant={plan.highlighted ? "cta" : "outline"} 
                   className="w-full"
+                  asChild
                 >
-                  Começar agora
+                  <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
+                    Começar agora
+                  </a>
                 </Button>
               </CardFooter>
             </Card>
@@ -136,9 +139,11 @@ export function PricingSection() {
                   Entre em contato para uma proposta sob medida.
                 </p>
               </div>
-              <Button variant="default" size="lg" className="flex-shrink-0">
-                <MessageCircle className="w-4 h-4 mr-2" />
-                Falar com consultor
+              <Button variant="default" size="lg" className="flex-shrink-0" asChild>
+                <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
+                  <MessageCircle className="w-4 h-4 mr-2" />
+                  Falar com consultor
+                </a>
               </Button>
             </div>
           </CardContent>
