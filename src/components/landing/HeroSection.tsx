@@ -1,22 +1,17 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRight, BarChart3, Map, FolderKanban } from "lucide-react";
-
 export function HeroSection() {
-  return (
-    <section className="hero-gradient min-h-[90vh] flex items-center relative overflow-hidden">
+  return <section className="hero-gradient min-h-[90vh] flex items-center relative overflow-hidden">
       {/* Background decorative elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 right-10 w-72 h-72 bg-accent/10 rounded-full blur-3xl animate-pulse-soft" />
         <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent/5 rounded-full blur-3xl animate-pulse-soft animation-delay-200" />
         {/* Grid pattern overlay */}
-        <div 
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
+        <div className="absolute inset-0 opacity-[0.03]" style={{
+        backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
                               linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-            backgroundSize: '60px 60px'
-          }}
-        />
+        backgroundSize: '60px 60px'
+      }} />
       </div>
 
       <div className="container relative z-10 py-20">
@@ -31,7 +26,7 @@ export function HeroSection() {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 font-display animate-fade-up animation-delay-100">
             Governar não é improviso.
             <br />
-            <span className="text-gradient">É método, dados e estratégia.</span>
+            <span className="text-gradient">É método, dados, estratégia e transparência.</span>
           </h1>
 
           {/* Subheadline */}
@@ -74,6 +69,5 @@ export function HeroSection() {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
