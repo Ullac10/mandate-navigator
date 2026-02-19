@@ -71,7 +71,7 @@ export function TrustSection() {
               Uma plataforma séria para quem leva política a sério
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              O Meu Mandato 360º foi desenvolvido com foco em governança real, 
+              O Vertex 360° foi desenvolvido com foco em governança real, 
               não em promessas vazias. Transparência, segurança e metodologia são nossos pilares.
             </p>
 

@@ -19,10 +19,10 @@ export function Header() {
           {/* Logo */}
           <a href="/" className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-sm">M</span>
+              <span className="text-accent-foreground font-bold text-sm">V</span>
             </div>
             <span className="text-white font-bold text-lg font-display hidden sm:block">
-              Meu Mandato 360º
+              Vertex 360°
             </span>
           </a>
 

@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     question: "Isso é um CRM?",
-    answer: "Não apenas. O Meu Mandato 360º é uma plataforma de gestão estratégica completa que inclui funcionalidades de CRM, mas vai muito além. Integra gestão de projetos, mapeamento territorial, indicadores de desempenho e acompanhamento de compromissos em um único sistema."
+    answer: "Não apenas. O Vertex 360° é uma plataforma de inteligência estratégica completa que inclui funcionalidades de CRM, mas vai muito além. Integra dados territoriais, gestão de projetos, mapeamento territorial, indicadores de desempenho e suporte à decisão em um único sistema."
   },
   {
     question: "Funciona para quem ainda não tem mandato?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: "Posso acessar pelo celular?",
-    answer: "Sim, a plataforma é totalmente responsiva e funciona perfeitamente em smartphones e tablets. Você pode gerenciar seu mandato de qualquer lugar, a qualquer momento."
+    answer: "Sim, a plataforma é totalmente responsiva e funciona perfeitamente em smartphones e tablets. Você pode gerenciar seu mandato com o Vertex 360° de qualquer lugar, a qualquer momento."
   },
   {
     question: "Quanto tempo leva para começar a usar?",
@@ -28,7 +28,7 @@ const faqs = [
   },
   {
     question: "Preciso instalar algum programa?",
-    answer: "Não. O Meu Mandato 360º é uma plataforma 100% online (SaaS). Basta acessar pelo navegador, sem necessidade de instalação ou atualizações manuais."
+    answer: "Não. O Vertex 360° é uma plataforma 100% online (SaaS). Basta acessar pelo navegador, sem necessidade de instalação ou atualizações manuais."
   },
   {
     question: "Posso cancelar quando quiser?",

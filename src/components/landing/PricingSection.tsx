@@ -69,7 +69,7 @@ export function PricingSection() {
             Planos transparentes para cada cargo
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Escolha o plano ideal para o seu mandato. Todos incluem setup completo, 
+            Escolha o plano Vertex 360° ideal para o seu mandato. Todos incluem setup completo, 
             treinamento e suporte técnico.
           </p>
         </div>
