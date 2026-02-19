@@ -34,15 +34,15 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-sm">M</span>
+                <span className="text-accent-foreground font-bold text-sm">V</span>
               </div>
               <span className="text-white font-bold text-lg font-display">
-                Meu Mandato 360º
+                Vertex 360°
               </span>
             </div>
             <p className="text-white/60 text-sm leading-relaxed">
-              Plataforma de gestão estratégica para mandatos políticos. 
-              Organize dados, projetos e base política em um só lugar.
+              Plataforma de inteligência estratégica para mandatos políticos. 
+              Integre dados territoriais, gestão e suporte à decisão em um só lugar.
             </p>
           </div>
 
@@ -71,7 +71,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
-            © 2024 Meu Mandato 360º. Todos os direitos reservados.
+            © 2025 Vertex 360°. Todos os direitos reservados.
           </p>
           <p className="text-white/40 text-sm">
             Feito com propósito para a política brasileira.

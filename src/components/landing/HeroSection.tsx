@@ -19,27 +19,27 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 text-white/80 text-sm mb-8 animate-fade-up">
             <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-            Plataforma de Gestão Política
+            Plataforma de Inteligência Estratégica
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 font-display animate-fade-up animation-delay-100">
             Governar não é improviso.
             <br />
-            <span className="text-gradient">É método, dados, estratégia e transparência.</span>
+            <span className="text-gradient">Decisão baseada em dados, não em achismo.</span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-10 leading-relaxed animate-fade-up animation-delay-200">
-            O Meu Mandato 360º é uma plataforma que organiza dados, base política,
-            projetos e entregas — antes, durante e depois do mandato.
+            Vertex 360° integra dados territoriais, CRM político, inteligência territorial
+            e suporte à decisão — desde a organização da base até a execução do mandato.
           </p>
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-300">
             <Button variant="hero" size="xl" asChild>
               <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
-                Quero organizar meu mandato
+                Quero conhecer o Vertex 360°
                 <ChevronRight className="w-5 h-5" />
               </a>
             </Button>

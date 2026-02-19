@@ -30,12 +30,12 @@ export function SolutionSection() {
               A Solução
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-display leading-tight">
-              Seu mandato precisa de um{" "}
-              <span className="text-gradient">sistema operacional</span>
+              Seu mandato precisa de{" "}
+              <span className="text-gradient">inteligência estratégica</span>
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-              O Meu Mandato 360º é uma plataforma de gestão estratégica para mandatos políticos. 
-              Centraliza dados, organiza projetos, mapeia sua base e transforma informação em decisões inteligentes.
+              Vertex 360° é uma plataforma de inteligência estratégica para mandatos políticos. 
+              Centraliza dados territoriais, organiza projetos, mapeia sua base e transforma informação em decisões inteligentes.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">

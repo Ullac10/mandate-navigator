@@ -61,7 +61,7 @@ export function ModulesSection() {
             Módulos
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 font-display">
-            Uma plataforma completa para seu mandato
+            Módulos integrados do Vertex 360°
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Cinco módulos integrados que cobrem todas as dimensões da gestão política moderna.

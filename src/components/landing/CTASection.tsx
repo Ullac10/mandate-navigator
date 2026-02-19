@@ -19,14 +19,14 @@ export function CTASection() {
 
           {/* Headline */}
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 font-display leading-tight">
-            Quem governa com dados
+            Decisão baseada em dados,
             <br />
-            <span className="text-gradient">governa melhor.</span>
+            <span className="text-gradient">não em achismo.</span>
           </h2>
 
           {/* Subtext */}
           <p className="text-lg text-white/70 max-w-xl mx-auto mb-10 leading-relaxed">
-            Transforme seu mandato em uma gestão estratégica, organizada e focada em resultados reais para sua base política.
+            Vertex 360° transforma seu mandato em uma gestão estratégica, organizada e focada em resultados mensuráveis.
           </p>
 
           {/* CTA */}
@@ -41,7 +41,7 @@ export function CTASection() {
 
           {/* Trust note */}
           <p className="mt-8 text-sm text-white/50">
-            Sem compromisso. Entenda como a plataforma pode ajudar seu mandato.
+            Sem compromisso. Descubra como o Vertex 360° pode transformar seu mandato.
           </p>
         </div>
       </div>
