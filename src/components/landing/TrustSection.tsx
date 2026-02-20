@@ -4,7 +4,7 @@ const trustPoints = [
   {
     icon: Database,
     title: "Dados oficiais públicos",
-    description: "Utilizamos informações de fontes oficiais como TSE, IBGE e bases governamentais para garantir precisão e confiabilidade."
+    description: "Utilizamos fontes oficiais e bases governamentais para garantir precisão e confiabilidade."
   },
   {
     icon: Brain,
