@@ -36,16 +36,11 @@ export function HeroSection() {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up animation-delay-300">
+          <div className="flex justify-center animate-fade-up animation-delay-300">
             <Button variant="hero" size="xl" asChild>
               <a href="https://wa.me/5551996807694" target="_blank" rel="noopener noreferrer">
                 Quero conhecer o Vertex 360°
                 <ChevronRight className="w-5 h-5" />
-              </a>
-            </Button>
-            <Button variant="heroOutline" size="xl" asChild>
-              <a href="#modulos">
-                Ver como funciona
               </a>
             </Button>
           </div>
