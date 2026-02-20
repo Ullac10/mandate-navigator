@@ -36,11 +36,11 @@ export function TrustSection() {
                 <div className="w-20 h-20 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-6">
                   <Shield className="w-10 h-10 text-accent" />
                 </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4 font-display">
-                  Confiança baseada em transparência
+                <h3 className="text-2xl md:text-3xl font-bold text-accent mb-2 font-display">
+                  Integrações e Conexão Segura
                 </h3>
-                <p className="text-primary-foreground/70 max-w-sm mx-auto">
-                  Uma plataforma construída para o setor público, com a seriedade que a política exige.
+                <p className="text-lg text-primary-foreground/80 max-w-sm mx-auto">
+                  Com dados e órgãos oficiais
                 </p>
 
                 {/* Stats */}
