@@ -11,8 +11,7 @@ const footerLinks = {
     title: "Empresa",
     links: [
       { label: "Sobre nós", href: "#" },
-      { label: "Contato", href: "#" },
-      { label: "Blog", href: "#" }
+      { label: "Contato", href: "#" }
     ]
   },
   legal: {
